@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(purple, indigo);
+  color: whitesmoke;
+}
+
+.image {
+  width: auto;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.heading {
+  all: unset;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: turquoise;
+}
+
+.btn {
+  all: unset;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: turquoise;
+  color: darkblue;
+}
+
+.custom-shape-divider-bottom-1702066772 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1702066772 svg {
+  position: relative;
+  display: block;
+  width: calc(147% + 1.3px);
+  height: 147px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1702066772 .shape-fill {
+  fill: #ffffff;
+}
